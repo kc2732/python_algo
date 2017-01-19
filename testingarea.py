@@ -1,9 +1,7 @@
-set = {1,3}
-set.add(2)
-set.add(2)
-print len(set)
-print(set)
-
-p = 1;
-q = 'null';
-print p == q
+dic = {}
+s = "chenkun"
+t = "chenkun1"
+tmp = 0
+for char in s+t:
+    tmp ^= ord(char)
+print chr(tmp)
